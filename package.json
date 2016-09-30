@@ -1,0 +1,38 @@
+{
+  "name": "lab-firebase",
+  "version": "1.0.0",
+  "description": "configurable to use the real firebase server or an in-memory fake",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber.js --compiler js:babel-register",
+    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lab-coop/lab-firebase.git"
+  },
+  "keywords": [
+    "firebase",
+    "dependency injection",
+    "fake"
+  ],
+  "author": "Lab.Coop",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lab-coop/lab-firebase/issues"
+  },
+  "homepage": "https://github.com/lab-coop/lab-firebase#readme",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.16.0",
+    "babel-plugin-transform-flow-strip-types": "^6.14.0",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-stage-2": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "chai": "^3.5.0",
+    "cucumber": "^1.3.0",
+    "firebase": "^3.4.1",
+    "flow-bin": "^0.33.0"
+  },
+  "dependencies": {}
+}
